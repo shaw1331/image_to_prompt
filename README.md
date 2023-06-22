@@ -22,7 +22,7 @@ $ git clone https://github.com/shaw1331/image_to_prompt
 I have generated ```requirements.txt``` using ```pipreqs```:
 
 ```python
-> python -m  pipreqs.pipreqs --encoding utf-8 C:/Users/shaw1331/NN_projects/image_to_prompt/code/
+> python -m  pipreqs.pipreqs --encoding utf-8 C:/Users/shaw1331/VLG_projects/image_to_prompt/code/
 ```
 
 **Note**: I prefer using ```pipreqs``` more than ```pip freeze```, as ```pip freeze``` saves all packages in the environment including those that you don't use in your current project. However, ```pipreqs only``` save the ones you are using in your project.
