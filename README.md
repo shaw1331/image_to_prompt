@@ -14,7 +14,7 @@ Image captioning model in pytorch using Resnet50 as encoder and LSTM as decoder.
 You'll need [Git](https://git-scm.com) to be installed on your computer.
 ```
 # Clone this repository
-$ git clone https://github.com/shaw1331/ImageCaption_Flickr30k
+$ git clone https://github.com/shaw1331/image_to_prompt
 ```
 
 <br>
