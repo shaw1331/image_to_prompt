@@ -4,7 +4,6 @@ Image captioning model in pytorch using Resnet50 as encoder and LSTM as decoder.
 
 
 ### Dataset
-- You can download the images and captions [here](https://www.kaggle.com/datasets/shaw1331/flickr30k).
 - Create a specific folder in ROOT path (for example 'images') for images.
 - Captions were split 70/30 into ```train_list.txt``` and ```val_list.txt```.
 
@@ -23,7 +22,7 @@ $ git clone https://github.com/shaw1331/ImageCaption_Flickr30k
 I have generated ```requirements.txt``` using ```pipreqs```:
 
 ```python
-> python -m  pipreqs.pipreqs --encoding utf-8 C:/Users/shaw1331/NN_projects/ImageCaption_Flickr30k/code/
+> python -m  pipreqs.pipreqs --encoding utf-8 C:/Users/shaw1331/NN_projects/image_to_prompt/code/
 ```
 
 **Note**: I prefer using ```pipreqs``` more than ```pip freeze```, as ```pip freeze``` saves all packages in the environment including those that you don't use in your current project. However, ```pipreqs only``` save the ones you are using in your project.
